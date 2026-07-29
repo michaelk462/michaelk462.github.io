@@ -7,7 +7,7 @@ layout: default
   <div>
     <nav class="links">
       <a href="index.md" class="active">Home</a>
-      <a href="index.md#assessment">Self-Assessment></a>
+      <a href="index.md#assessment">Self-Assessment</a>
       <a href="index.md#modules">Enhancements</a>
       <a href="code-review.md">Code Review</a>
       <a href="index.html#contact">Contact</a>
