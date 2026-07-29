@@ -19,6 +19,6 @@ Enhanced
 
 [Main Page](index)
 
-[Artifact Two: Algorithms & Data Structure](enhancement-two)
+[Artifact Two: Algorithms & Data Structures](enhancement-two)
 
 [Artifact Three: Databases](enhancement-three)
