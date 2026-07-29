@@ -11,9 +11,9 @@ The artifact that was used for the Software Design and Engineering enhancement w
 
 ## Downloads
 
-[**Original**](CS330Original.zip)
+[**Original** (17.6MB)](CS330Original.zip)
 
-[**Enhancement**](CS330Enhancement.zip)
+[**Enhancement** (6.7MB)](CS330Enhancement.zip)
 
 # **Links**
 
