@@ -1,5 +1,4 @@
-# **Michael King CS 499 ePortfolio**
-CS499 Computer Science Capstone June-Aug 2026
+# **Michael King CS-499 ePortfolio**
 
 # **Professional Self-Assessment**
 
