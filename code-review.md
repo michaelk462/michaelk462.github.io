@@ -5,13 +5,21 @@
 
 # **What Is Covered in This Review**
 ## Category One (about 8 minutes)
+
 **Artifact:** CS 330 3D Scene
+
 **Focus:** Existing C++/OpenGL functionality, structural weaknesses, planned Python port.
+
 ## Category Two (about 8 minutes)
+
 **Artifact:** CS-340 Animal Shelter Dashboard
+
 **Focus:** CRUD/dashboard walkthrough, indexing & caching plan.
+
 ## Category Three (about 8 minutes)
+
 **Artifact:** CS-360 Weight Tracking App
+
 **Focus:** Security weaknesses, Flask/MongoDB/JWT migration plan.
 
 # **Links**
