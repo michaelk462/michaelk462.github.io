@@ -9,6 +9,6 @@
 
 [Artifact One: Software Design & Engineering](enhancement-one)
 
-[Artifact Two: Algorithms & Data Structure](enhancement-two)
+[Artifact Two: Algorithms & Data Structures](enhancement-two)
 
 [Artifact Three: Databases](enhancement-three)
