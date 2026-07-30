@@ -6,9 +6,9 @@
 
 [Code Review](code-review)
 
-[Artifact One: Software Design & Engineering](enhancement-one)
+[Enhancement One: Software Design & Engineering](enhancement-one)
 
-[Artifact Two: Algorithms & Data Structure](enhancement-two)
+[Enhancement Two: Algorithms & Data Structure](enhancement-two)
 
-[Artifact Three: Databases](enhancement-three)
+[Enhancement Three: Databases](enhancement-three)
 
