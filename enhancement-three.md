@@ -1,12 +1,12 @@
 # **Michael King CS-499 ePortfolio**
 
-# **Enhancement Three: Databases**
+## **Enhancement Three: Databases**
 
-# **Introduction**
+## **Introduction**
 
-# **Narrative**
+## **Narrative**
 
-# **Downloads**
+## **Downloads**
 
 # **Links**
 
