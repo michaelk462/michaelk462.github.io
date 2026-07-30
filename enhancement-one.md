@@ -34,7 +34,7 @@ The CS-330 3D scene Python port is a tangible, intellectually rigorous step forw
 
 ## **Downloads**
 
-[**Original** (19.4 MB)](CS330Original.zip)
+[**Original** (19.7 MB)](CS330Original.zip)
 
 [**Enhancement** (6.7 MB)](CS330Enhancement.zip)
 
