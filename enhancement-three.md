@@ -1,6 +1,6 @@
 # **Michael King CS-499 ePortfolio**
 
-# **Artifact Three: Databases**
+# **Enhancement Three: Databases**
 
 # **Introduction**
 
@@ -12,8 +12,8 @@
 
 [Code Review](code-review)
 
-[Artifact One: Software Design & Engineering](enhancement-one)
+[Enhancement One: Software Design & Engineering](enhancement-one)
 
-[Artifact Two: Algorithms & Data Structures](enhancement-two)
+[Enhancement Two: Algorithms & Data Structures](enhancement-two)
 
 [Main Page](index)
