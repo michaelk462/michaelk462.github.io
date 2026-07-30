@@ -1,6 +1,6 @@
 # **Michael King CS-499 ePortfolio**
 
-# **Artifact Two: Algorithms & Data Structures**
+# **Enhancement Two: Algorithms & Data Structures**
 
 # **Introduction**
 
@@ -8,7 +8,7 @@
 
 # **Downloads**
 
-[**Original**(700 KB)](CS340Original.zip)
+[**Original** (700 KB)](CS340Original.zip)
 
 [**Enhancement** (707 KB)](CS340Enhancement.zip)
 
@@ -16,8 +16,8 @@
 
 [Code Review](code-review)
 
-[Artifact One: Software Design & Engineering](enhancement-one)
+[Enhancement One: Software Design & Engineering](enhancement-one)
 
 [Main Page](index)
 
-[Artifact Three: Databases](enhancement-three)
+[Enhancement Three: Databases](enhancement-three)
