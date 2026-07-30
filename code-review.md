@@ -26,8 +26,8 @@
 
 [Main Page](index)
 
-[Artifact One: Software Design & Engineering](enhancement-one)
+[Enhancement One: Software Design & Engineering](enhancement-one)
 
-[Artifact Two: Algorithms & Data Structures](enhancement-two)
+[Enhancement Two: Algorithms & Data Structures](enhancement-two)
 
-[Artifact Three: Databases](enhancement-three)
+[Enhancement Three: Databases](enhancement-three)
