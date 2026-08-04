@@ -25,7 +25,7 @@ This experience was an excellent reminder that enhancement work is not done when
 
 ## **Narrative**
 
-[Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/main/CS-499%20Enhancement%20Two%20Narrative.pdf)
+[Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20Two%20Narrative.pdf)
 
 ## **Downloads**
 
