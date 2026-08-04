@@ -27,9 +27,13 @@ This outcome is well-thought-out during the trade-off analysis, such as whether 
 
 ## **What I Learned**
 Of the major lessons learned during this enhancement, the one that stands out most is that there are nuanced differences between C++ and Python in language semantics that can make software behave in ways that are difficult to predict. In particular, the subtle “idiomatic” behavior of the input event handling system led to the most educational bug, where the camera’s movement speed would get set back to an unusually low value each time any movement key was pressed. After exhaustive debugging of the input event handling code, this was narrowed down to a one-character typo in camera.py:
+
 `velocity = self.movement_speed = delta_time`
+
 I used Python’s chained assignment operator to apply delta_time to both velocity and self.movement_speed at once. In C++, this expression chains assignments from right to left and leaves the two variables as separate memory locations, resulting in the desired behavior. In Python, the chained assignment assigns the same value to each target, causing movement_speed to be reset to the frame delta time for each key press. The proper line is
+
 `velocity = self.movement_speed * delta_time`
+
 This reinforced the learning that cross-language porting is not simply a matter of syntactic translation, but actually involves reasoning about the semantic differences of language constructs that are visually similar. It also made evident that a systematic debugging approach
 can be powerful: The symptom of a speed reset on movement was quite distinct and easily generalized to the keyboard handler; the only place in camera.py where movement_speed could be set on keypress was the process_keyboard method.
 
