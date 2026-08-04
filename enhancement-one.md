@@ -30,7 +30,7 @@ The CS-330 3D scene Python port is a tangible, intellectually rigorous step forw
 
 ## **Narrative**
 
-[Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/main/CS-499%20Enhancement%20One%20Narrative.pdf)
+[Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20One%20Narrative.pdf)
 
 ## **Downloads**
 
