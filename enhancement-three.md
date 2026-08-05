@@ -2,9 +2,31 @@
 
 # **Enhancement Three: Databases**
 
-## **Introduction**
+## **Artifact Description**
+
+## **Why This Artifact Was Selected**
+
+## **How This Artifact Was Improved**
+
+## **Client-Side Changes**
+
+## **Course Outcome Alignment**
+
+### Outcome 1
+
+### How This Outcome Is Demonstrated
+
+### Outcome 2
+
+### How This Outcome Is Demonstrated
 
 ## **Narrative**
+
+## **Original Project vs. Enhancement**
+
+### Screenshots
+
+### Original and Enhanced Artifact Files
 
 ## **Downloads**
 
