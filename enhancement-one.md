@@ -41,7 +41,17 @@ can be powerful: The symptom of a speed reset on movement was quite distinct and
 
 [Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20One%20Narrative.pdf)
 
-## **Original and Enhanced Artifact Files**
+## **Original Project vs. Enhancement**
+
+### Screenshots
+
+#### **Before**
+[assets/images/CS-330 Original Screenshot.jpg]
+
+#### **After**
+[assets/images/CS-330 Enhancement.jpg]
+
+### Original and Enhanced Artifact Files
 
 
 
