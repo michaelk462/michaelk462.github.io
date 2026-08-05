@@ -45,11 +45,9 @@ can be powerful: The symptom of a speed reset on movement was quite distinct and
 
 ### Screenshots
 
-#### **Before**
-[assets/images/CS-330 Original Screenshot.jpg]
+![Before](assets/images/CS-330 Original Screenshot.jpg)
 
-#### **After**
-[assets/images/CS-330 Enhancement.jpg]
+![After](assets/images/CS-330 Enhancement.jpg)
 
 ### Original and Enhanced Artifact Files
 
