@@ -12,6 +12,10 @@ architecture of the original implementation. The artifact is visually interestin
 ## **What The Enhancement Improved**
 The artifact was improved in a number of tangible ways. The Python port alone adds inline docstrings to every class and method, complete with parameter and return annotations and insightful commentary on design decisions, most of which were absent in the C++ version. The procedural approach to mesh generation cuts down the 96KB of raw vertex data that made up the ShapeMeshes (one of the larger files in the original project) and packs it into a manageable, parameter-driven algorithm. The class hierarchy is more modular due to Python’s module archiving (rather than larger header/implementation file pairs common in C++), and each class is entirely self-sufficient. Input handling is simpler due to Pygame’s lack of callback architecture (replacing the key event handler callbacks from GLFW), and key debouncing is achieved through clear logical conditionals instead of raising state variables. A shader load failure check is added to the application entry point to prevent the program from receiving an invalid ID if the shader cannot be compiled, to prevent silent continuation; instead, a clean exit is given. The call to enable the depth test was moved out of the render method (to once a second, previously 60 times a second). The return values from glGenTextures/glGenVertexArrays are now plain Python integers, passed through the Python int function, rather than handling a behavior change in PyOpenGL 3.14, where these functions now return arrays rather than scalar integer types.
 
+## **Enhancement Flowchart**
+
+![Flowchart](assets/images/Enhancement One Flowchart.jpg)
+
 ## **Course Outcome Alignment**
 ### Outcome 1
 Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. 
@@ -43,9 +47,11 @@ can be powerful: The symptom of a speed reset on movement was quite distinct and
 
 ## **Original Project vs. Enhancement**
 
-### Screenshots
+### Screenshot of the Original CS-330 3D Scene Built in C++
 
 ![Before](assets/images/CS-330 Original Screenshot.jpg)
+
+### Screenshot of the Enhanced CS-330 3D Scene Built in Python
 
 ![After](assets/images/CS-330 Enhancement.jpg)
 
