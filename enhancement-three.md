@@ -22,6 +22,8 @@
 
 ## **Narrative**
 
+[Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/7deacf8c832e1990d96aaec5dabe838a041d7d69/Narratives/CS-499%20Enhancement%20Three%20Narrative.pdf)
+
 ## **Original Project vs. Enhancement**
 
 ### Screenshots
