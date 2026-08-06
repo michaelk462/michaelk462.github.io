@@ -61,9 +61,9 @@ can be powerful: The symptom of a speed reset on movement was quite distinct and
 
 ## **Downloads**
 
-[**Original** (19.7 MB)](CS330Original.zip)
+[**Original** (~19.7 MB)](CS330Original.zip)
 
-[**Enhancement** (6.7 MB)](CS330Enhancement.zip)
+[**Enhancement** (~6.7 MB)](CS330Enhancement.zip)
 
 # **Links**
 
