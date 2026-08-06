@@ -30,7 +30,7 @@ Design, develop, and deliver professional-quality oral, written, and visual comm
 This outcome is well-thought-out during the trade-off analysis, such as whether to use procedural generation of the mesh instead of literal vertex arrays (which trades file size and generation time for readability and parameterizability), and whether to use Pygame CE instead of Pygame (which trades the expected Pygame library for support in the latest Python 3.14). These decisions were planned, documented, and supported using software engineering logic. No modifications to the existing outcome or coverage plan were necessary. The improvement made is the same as the plan outlined in the first module, and all six planned Python modules have been written and verified to run successfully.
 
 ## **What I Learned**
-Of the major lessons learned during this enhancement, the one that stands out most is that there are nuanced differences between C++ and Python in language semantics that can make software behave in ways that are difficult to predict. In particular, the subtle “idiomatic” behavior of the input event handling system led to the most educational bug, where the camera’s movement speed would get set back to an unusually low value each time any movement key was pressed. After exhaustive debugging of the input event handling code, this was narrowed down to a one-character typo in camera.py:
+Of the major lessons learned during this enhancement, the one that stands out most is that there are nuanced differences between C++ and Python in language semantics that can make software behave in ways that are difficult to predict. In particular, the subtle “idiomatic” behavior of the input event handling system led to the most educational bug, where the camera’s movement speed would get set back to an unusually low value each time any movement key was pressed. After exhaustive debugging of the input event handling code, this was narrowed down to a one-character typo in *camera.py*:
 
 `velocity = self.movement_speed = delta_time`
 
@@ -57,7 +57,7 @@ can be powerful: The symptom of a speed reset on movement was quite distinct and
 
 ### Original and Enhanced Artifact Files
 
-
+[to be shown here]
 
 ## **Downloads**
 
