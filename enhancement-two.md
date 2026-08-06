@@ -87,7 +87,7 @@ One particular problem revealed only through *hands-on testing* and not inspecti
 
 ### Original and Enhanced Artifact Files
 
-[Original Artifact Files]
+[Original Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/c3bb0c545d0e2299de321521359943b8427f5daf/original-code/CS340)
 
 [Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/6ba837272fad9c08a6e6bf69f9ef6a75205d2053/enhanced-code/CS340)
 
