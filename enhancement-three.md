@@ -3,7 +3,7 @@
 # **Enhancement Three: Databases**
 
 ## **Artifact Description**
-
+The artifact for this milestone is the weight tracking Android mobile application I developed for **CS-360: Mobile Architecture and Programming**. I created this program in Java with the Android Studio platform. The app was originally designed to enable a user to create an account and log in, log and review weight info over time, set a goal weight, and receive a text message upon achieving that goal. All data, including user information, weight data, and the goal, were stored locally on the device in an SQLite database, accessed through an object that performed synchronous database queries on the UI thread.
 
 ## **Why This Artifact Was Selected**
 
