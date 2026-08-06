@@ -83,11 +83,15 @@ One particular problem revealed only through *hands-on testing* and not inspecti
 
 [Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20Two%20Narrative.pdf)
 
-## **Original and Enhanced Artifact Files**
+## **Original Project vs. Enhancement**
 
+### Original and Enhanced Artifact Files
 
+[Original Artifact Files]
 
-## **Downloads**
+[Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/6ba837272fad9c08a6e6bf69f9ef6a75205d2053/enhanced-code/CS340)
+
+### Downloads
 
 [**Original** (~700 KB)](CS340Original.zip)
 
