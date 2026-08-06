@@ -38,7 +38,11 @@ Develop a security mindset that anticipates adversarial exploits in software arc
 
 ### Original and Enhanced Artifact Files
 
-## **Downloads**
+[Original Artifact Files]
+
+[Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/6ba837272fad9c08a6e6bf69f9ef6a75205d2053/enhanced-code/CS360)
+
+### Downloads
 
 [**Original** (~130 KB)](CS360Original.zip)
 
