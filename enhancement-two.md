@@ -89,9 +89,9 @@ One particular problem revealed only through *hands-on testing* and not inspecti
 
 ## **Downloads**
 
-[**Original** (700 KB)](CS340Original.zip)
+[**Original** (~700 KB)](CS340Original.zip)
 
-[**Enhancement** (707 KB)](CS340Enhancement.zip)
+[**Enhancement** (~704 KB)](CS340Enhancement.zip)
 
 # **Links**
 
