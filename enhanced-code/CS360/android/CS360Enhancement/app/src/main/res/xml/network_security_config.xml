@@ -1,0 +1,15 @@
+<!--
+By default, Android blocks cleartext (non-HTTPS traffic).
+This config allows plaintext HTTP ONLY to the emulator's
+loopback alias (10.0.2.2), which is what a local Flash dev server
+runs on. This is for local development/testing only; a deployed
+server should use HTTPS and this domain-specific exception
+(and the networkSecurityConfig attribute referencing it should be
+removed.
+-->
+
+<network-security-config>
+    <domain-config cleartextTrafficPermitted="true">
+        <domain includeSubdomains="false">10.0.2.2</domain>
+    </domain-config>
+</network-security-config>

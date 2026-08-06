@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CS360Enhancement</string>
+    <string name="enter_your_goal_weight_in_lbs">Enter your goal weight in lbs.</string>
+    <string name="goal_weight_lbs">Goal Weight in lbs.</string>
+    <string name="set_goal_weight">Set Goal Weight</string>
+    <string name="weight_lbs_or_kg">Weight (lbs or kg)</string>
+    <string name="date_mm_dd_yyyy">Date (mm/dd/yyyy)</string>
+    <string name="goal_weight_not_set">Goal weight not set</string>
+    <string name="add_entry">Add Entry</string>
+    <string name="weighttracker">WeightTracker</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="first_time_register">First time? Register</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+</resources>

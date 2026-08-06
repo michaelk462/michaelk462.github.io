@@ -1,0 +1,29 @@
+# *****CODE INFORMATION*****
+# Name: Michael King
+# Date: 7/17/2026
+# File: requirements.txt
+# Assignment: CS-499 Enhancement 1
+# CS-330 3D Scene Python Port
+# University: SNHU
+
+# Install the following by running:
+# `pip install -r requirements.txt` in the terminal
+
+# Or, if that doesn't work, run:
+# `python -m pip install -r requirements.txt`
+
+# Or run:
+# `python -m pip install pygame-ce PyOpenGL PyOpenGL_accelerate Pillow numpy pyrr`
+
+# NOTE: Standard pygame does not support Python 3.14.
+# pygame-ce (Community Edition) is a drop-in replacement that
+# supports Python 3.10-3.14 with pre-built Windows wheels.
+# It is imported identically;
+# no code changes to 'import pygame' are needed.
+
+pygame-ce>=2.5.7
+PyOpenGL>=3.1.7
+PyOpenGL_accelerate>=3.1.7
+Pillow>=10.0.0
+numpy>=1.24.0
+pyrr>=0.10.3

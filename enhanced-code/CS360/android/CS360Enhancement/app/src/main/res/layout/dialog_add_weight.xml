@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <EditText
+        android:id="@+id/editDialogWeight"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="@string/weight_lbs_or_kg"
+        android:autofillHints="2"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="8dp"
+        android:textColor="#424242"
+        tools:ignore="LabelFor" />
+
+    <EditText
+        android:id="@+id/editDialogDate"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:inputType="date"
+        android:text="@string/date_mm_dd_yyyy"
+        android:autofillHints="Date"
+        android:layout_marginBottom="8dp"
+        android:textColor="#424242"
+        tools:ignore="LabelFor" />
+
+</LinearLayout>
