@@ -57,9 +57,11 @@ can be powerful: The symptom of a speed reset on movement was quite distinct and
 
 ### Original and Enhanced Artifact Files
 
-[to be shown here]
+[Original]
 
-## **Downloads**
+[Enhancement](https://github.com/michaelk462/michaelk462.github.io/tree/6ba837272fad9c08a6e6bf69f9ef6a75205d2053/enhanced-code/CS330)
+
+### Downloads
 
 [**Original** (~19.7 MB)](CS330Original.zip)
 
