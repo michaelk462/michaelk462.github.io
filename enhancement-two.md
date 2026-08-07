@@ -18,7 +18,15 @@ Compound indexes on `breed`, `sex_upon_outcome`, and `age_upon_outcome_in_weeks`
 A new method, `read_with_filter(rescue_type)`, replaces client-side pandas filtering with a MongoDB aggregation pipeline (`$match`, `$project`, `$sort`), where filtering, field selection, and sorting all happen on the server side outside of Python, not after the collection has been fully streamed down to a Python DataFrame.
 
 ### Memoization Cache
-A dictionary cache, `query_cache`, saves the result of each rescue-type query after the first run, so that a subsequent request for the same data can be an O(1) dictionary lookup, rather than an O(n) query, with its cache automatically cleared on the next `create()`, `update()`, or `delete()` call to ensure all data remains consistent at all times. 
+A dictionary cache, `query_cache`, saves the result of each rescue-type query after the first run, so that a subsequent request for the same data can be an O(1) dictionary lookup, rather than an O(n) query, with its cache automatically cleared on the next `create()`, `update()`, or `delete()` call to ensure all data remains consistent at all times.
+
+## **Complexity, Before and After**
+
+| Path                         | Complexity                         |
+|------------------------------|------------------------------------|
+| Original unindexed find()    | O(n) - full collection scan        |
+| Enhanced indexed aggregation | O(log n) - index-assisted lookup   |
+| Cached repeated query        | O(1) - dictionary lookup           |
 
 ## **Enhanced CRUD Module (excerpt)**
 ```
