@@ -55,31 +55,31 @@ def read_with_filter(self, rescue_type):
         self.query_cache[rescue_type] = result
         return result
 
-    # *** CREATE Method ***
-    def create(self, data):
-        if data is not None: # if data is not empty
-            try:
-                # insert_one returns an object with the inserted_id
-                insert_result = self.collection.insert_one(data)
+# *** CREATE Method ***
+def create(self, data):
+	if data is not None: # if data is not empty
+		try:
+			# insert_one returns an object with the inserted_id
+			insert_result = self.collection.insert_one(data)
 
-                # Enhancement: clear the cache so a newly inserted document
-                # is reflected the next time a filtered read is requested.
-                self.query_cache.clear()
+			# Enhancement: clear the cache so a newly inserted document
+			# is reflected the next time a filtered read is requested.
+			self.query_cache.clear()
 
-                # returns true if create method is successful
-                # otherwise returns false
-                return True if insert_result.inserted_id else False
+			# returns true if create method is successful
+			# otherwise returns false
+			return True if insert_result.inserted_id else False
 ```
 
 ## **Course Outcome Alignment**
 ### Outcome 1
-Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design decisions.
+**Design and evaluate computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution while managing the trade-offs involved in design decisions.**
 
 ### How This Outcome Is Demonstrated
 Each of the three enhancement decisions was prefaced in the course by an explicit before/after complexity statement, from O(n) to O(log n) to O(1), for repeated queries. 
 
 ### Outcome 2
-Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.
+**Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
 
 ### How This Outcome Is Demonstrated
 Indexing, aggregation pipelines, and memoization are well-founded, standard, and pragmatic techniques used in concurrency. No modifications were made to the original outcome coverage plan; the improvement was implemented as designed in Module One.
