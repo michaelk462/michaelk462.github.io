@@ -3,7 +3,6 @@
 # **Enhancement Two: Algorithms & Data Structures**
 
 ## **Artifact Description**
-
 The artifact is the Grazioso Salvare Animal Shelter Dashboard created for **CS 340: Advanced Programming Concepts**. It is an interactive web application built with Python, MongoDB, and Plotly Dash. The application functionality consists of a CRUD module, *animalshelter.py*, that interacts with a collection of 10,000 animal shelter outcomes in a Mongo database, and a Dash-based dashboard (*app.py/ProjectTwoDashboard.ipynb*) that allows a user to filter animals based on rescue type (Water Rescue, Mountain/Wilderness, Disaster/Tracking), see the filtered data in an interactive data table, see a breed distribution pie chart, and see a geolocation map of a selected animal. The original version of this artifact was created earlier in the Computer Science program and was adopted into the ePortfolio during the CS 499 Module One planning process.
 
 ## **Why This Artifact Was Selected**
@@ -85,7 +84,7 @@ Each of the three enhancement decisions was prefaced in the course by an explici
 Indexing, aggregation pipelines, and memoization are well-founded, standard, and pragmatic techniques used in concurrency. No modifications were made to the original outcome coverage plan; the improvement was implemented as designed in Module One.
 
 ## **What I Learned**
-One particular problem revealed only through *hands-on testing* and not inspection of the code was that after the dashboard’s callback was wired to call `read_with_filter()`, the rec_num column had disappeared from the data table in every case, including the “Reset All Animals” view, even though it was still being displayed correctly in the original version running on the same server. Regression traced back to the aggregation pipeline `$project` stage provided the answer: `$project` in inclusion mode is non-null fields only, and result fields have to be explicitly added with 1 to `PROJECTION_FIELDS`, but `rec_num` was missing. Because the original filtering in pandas sliced columns from an existing DataFrame that already had every column, there was no failure mode for this sort of null-value data loss with the original code; instead, this was a subtle, field-by-field database loss risk linked exclusively to context-specific projection implementations. This was fixed by just inserting `'rec-num': 1` into the projection, re-executing all three rescue-type filters plus the reset view, and confirming that it worked again against the live MongoDB instance.
+One particular problem revealed only through *hands-on testing* and not inspection of the code was that after the dashboard’s callback was wired to call `read_with_filter()`, the rec_num column had disappeared from the data table in every case, including the “Reset All Animals” view, even though it was still being displayed correctly in the original version running on the same server. Regression traced back to the aggregation pipeline `$project` stage provided the answer: `$project` in inclusion mode is non-null fields only, and result fields have to be explicitly added with 1 to `PROJECTION_FIELDS`, but `rec_num` was missing. Because the original filtering in pandas sliced columns from an existing DataFrame that already had every column, there was no failure mode for this sort of null-value data loss with the original code; instead, this was a subtle, field-by-field database loss risk linked exclusively to context-specific projection implementations. This was fixed by just inserting `'rec_num': 1` into the projection, re-executing all three rescue-type filters plus the reset view, and confirming that it worked again against the live MongoDB instance.
 
 ## **Narrative**
 
@@ -95,9 +94,9 @@ One particular problem revealed only through *hands-on testing* and not inspecti
 
 ### Original and Enhanced Artifact Files
 
-[Original Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/c3bb0c545d0e2299de321521359943b8427f5daf/original-code/CS340)
+[Original Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/main/original-code/CS340)
 
-[Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/6ba837272fad9c08a6e6bf69f9ef6a75205d2053/enhanced-code/CS340)
+[Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/main/enhanced-code/CS340)
 
 ### Downloads
 
