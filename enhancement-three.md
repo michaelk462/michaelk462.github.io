@@ -30,7 +30,13 @@ Hashing passwords, parameterized queries, and token-based authentication in the 
 
 ## **Original Project vs. Enhancement**
 
-### Screenshots
+### Screenshot of the Original CS-360 Weight Tracking App Built in Android Studio
+
+![Before](assets/images/CS-360 Original Screenshot.jpg)
+
+### Screenshot of the Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend
+
+![After](assets/images/CS-360 Enhancement Screenshot.jpg)
 
 ### Original and Enhanced Artifact Files
 
