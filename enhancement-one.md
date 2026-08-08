@@ -10,7 +10,7 @@ The artifact was chosen as a representative sample of my portfolio because it is
 architecture of the original implementation. The artifact is visually interesting and would be a strong visual component of a professional ePortfolio.
 
 ## **What The Enhancement Improved**
-The artifact was improved in a number of tangible ways. The Python port alone adds inline docstrings to every class and method, complete with parameter and return annotations and insightful commentary on design decisions, most of which were absent in the C++ version. The procedural approach to mesh generation cuts down the 96KB of raw vertex data that made up the ShapeMeshes (one of the larger files in the original project) and packs it into a manageable, parameter-driven algorithm. The class hierarchy is more modular due to Python’s module archiving (rather than larger header/implementation file pairs common in C++), and each class is entirely self-sufficient. Input handling is simpler due to Pygame’s lack of callback architecture (replacing the key event handler callbacks from GLFW), and key debouncing is achieved through clear logical conditionals instead of raising state variables. A shader load failure check is added to the application entry point to prevent the program from receiving an invalid ID if the shader cannot be compiled, to prevent silent continuation; instead, a clean exit is given. The call to enable the depth test was moved out of the render method (to once a second, previously 60 times a second). The return values from glGenTextures/glGenVertexArrays are now plain Python integers, passed through the Python int function, rather than handling a behavior change in PyOpenGL 3.14, where these functions now return arrays rather than scalar integer types.
+The Python port alone adds inline docstrings to every class and method, complete with parameter and return annotations and insightful commentary on design decisions, most of which were absent in the C++ version. The procedural approach to mesh generation cuts down the 96KB of raw vertex data that made up the ShapeMeshes (one of the larger files in the original project) and packs it into a manageable, parameter-driven algorithm. The class hierarchy is more modular due to Python’s module archiving (rather than larger header/implementation file pairs common in C++), and each class is entirely self-sufficient. Input handling is simpler due to Pygame’s lack of callback architecture (replacing the key event handler callbacks from GLFW), and key debouncing is achieved through clear logical conditionals instead of raising state variables. A shader load failure check is added to the application entry point to prevent the program from receiving an invalid ID if the shader cannot be compiled, to prevent silent continuation; instead, a clean exit is given. The call to enable the depth test was moved out of the render method (to once a second, previously 60 times a second). The return values from glGenTextures/glGenVertexArrays are now plain Python integers, passed through the Python int function, rather than handling a behavior change in PyOpenGL 3.14, where these functions now return arrays rather than scalar integer types.
 
 ## **Enhancement Flowchart**
 
@@ -34,7 +34,7 @@ Of the major lessons learned during this enhancement, the one that stands out mo
 
 `velocity = self.movement_speed = delta_time`
 
-I used Python’s chained assignment operator to apply delta_time to both velocity and self.movement_speed at once. In C++, this expression chains assignments from right to left and leaves the two variables as separate memory locations, resulting in the desired behavior. In Python, the chained assignment assigns the same value to each target, causing movement_speed to be reset to the frame delta time for each key press. The proper line is
+I used Python’s chained assignment operator to apply `delta_time` to both `velocity` and `self.movement_speed` at once. In C++, this expression chains assignments from right to left and leaves the two variables as separate memory locations, resulting in the desired behavior. In Python, the chained assignment assigns the same value to each target, causing `movement_speed` to be reset to the frame delta time for each key press. The proper line is
 
 `velocity = self.movement_speed * delta_time`
 
@@ -57,9 +57,9 @@ can be powerful: The symptom of a speed reset on movement was quite distinct and
 
 ### Original and Enhanced Artifact Files
 
-[Original Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/eed3faf614892090a80f2974506d0a8cfa131baf/original-code/CS330)
+[Original Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/main/original-code/CS330)
 
-[Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/6ba837272fad9c08a6e6bf69f9ef6a75205d2053/enhanced-code/CS330)
+[Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/main/enhanced-code/CS330)
 
 ### Downloads
 
