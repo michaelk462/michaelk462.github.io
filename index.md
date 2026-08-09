@@ -2,7 +2,25 @@
 
 # **Professional Self-Assessment**
 
-# **Course Outcomes**
+## **Introduction**
+
+## **Program Reflection and Professional Growth**
+
+### Collaborating in a Team Environment
+
+### Communicating with Stakeholders
+
+### Data Structures and Algorithms
+
+### Software Engineering and Database
+
+### Security
+
+## **Career Goals and Values**
+
+## **Introduction to the ePortfolio Artifacts**
+
+## **Course Outcomes**
 
 1. I have employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science. *This outcome is demonstrated in the [Code Review](code-review), which walks a non-technical, peer/manager-level audience through each artifact's existing functionality, weaknesses, and enhancement plan.*
 2. I have designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts. *This outcome is demonstrated across the [code review video](code-review) and the written narratives for all three enhancements, each documenting design rationale in technical standards-grounded language.*
