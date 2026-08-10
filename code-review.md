@@ -18,6 +18,7 @@ If the video doesn't load, [watch it directly on YouTube.](https://youtu.be/pweJ
 **Artifact:** CS-340 Animal Shelter Dashboard
 
 **Focus:** CRUD/dashboard walkthrough, indexing & caching plan.
+
 ### Category Three (~8 minutes)
 
 **Artifact:** CS-360 Weight Tracking App
@@ -26,10 +27,12 @@ If the video doesn't load, [watch it directly on YouTube.](https://youtu.be/pweJ
 
 # **Links**
 
-[Main Page](index)
+[**Professional Self-Assessment**](index)
 
-[Enhancement One: Software Design & Engineering](enhancement-one)
+[**Code Review**](code-review)
 
-[Enhancement Two: Algorithms & Data Structures](enhancement-two)
+[**Enhancement One: Software Design & Engineering**](enhancement-one)
 
-[Enhancement Three: Databases](enhancement-three)
+[**Enhancement Two: Algorithms & Data Structures**](enhancement-two)
+
+[**Enhancement Three: Databases**](enhancement-three)
