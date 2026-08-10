@@ -29,7 +29,7 @@ This outcome is demonstrated in the completed migration involving the functionin
 This outcome is demonstrated through the use of hashed passwords, parameterized queries, and token-based authentication in the abstract. The implementation proved to be an extra, unplanned security insight: the core artifact’s prior data entry source file did not scope weighing any permanently entered items by user at all, rather than as a data-isolation bug. Addressing this flaw entailed scoping every read, update, and delete operation to the authenticated user identity, rather than to a record’s raw ID; this is, in spirit, a more concrete proactive step toward thwarting an attacker than the initial plan explicitly accounted for.
 
 ## **Narrative**
-[**Read Full Narrative**](https://github.com/michaelk462/michaelk462.github.io/blob/7deacf8c832e1990d96aaec5dabe838a041d7d69/Narratives/CS-499%20Enhancement%20Three%20Narrative.pdf)
+[**Read Full Narrative**](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20Three%20Narrative.pdf)
 
 ## **Original Project vs. Enhancement**
 
