@@ -37,7 +37,7 @@ I used Python’s chained assignment operator to apply `delta_time` to both `vel
 
 `velocity = self.movement_speed * delta_time`
 
-This reinforced the learning that cross-language porting is not simply a matter of syntactic translation, but actually involves reasoning about the semantic differences of language constructs that are visually similar. It also made evident that a systematic debugging approach can be powerful: The symptom of a speed reset on movement was quite distinct and easily generalized to the keyboard handler; the only place in camera.py where movement_speed could be set on keypress was the process_keyboard method.
+This reinforced the learning that cross-language porting is not simply a matter of syntactic translation, but actually involves reasoning about the semantic differences of language constructs that are visually similar. It also made evident that a systematic debugging approach can be powerful: The symptom of a speed reset on movement was quite distinct and easily generalized to the keyboard handler; the only place in *camera.py* where `movement_speed` could be set on keypress was the `process_keyboard` method.
 
 ## **Narrative**
 
