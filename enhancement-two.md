@@ -88,15 +88,15 @@ One particular problem revealed only through *hands-on testing* and not inspecti
 
 ## **Narrative**
 
-[Read Full Narrative](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20Two%20Narrative.pdf)
+[**Read Full Narrative**](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20Two%20Narrative.pdf)
 
 ## **Original Project vs. Enhancement**
 
 ### Original and Enhanced Artifact Files
 
-[Original Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/main/original-code/CS340)
+[**Original Artifact Files**](https://github.com/michaelk462/michaelk462.github.io/tree/main/original-code/CS340)
 
-[Enhanced Artifact Files](https://github.com/michaelk462/michaelk462.github.io/tree/main/enhanced-code/CS340)
+[**Enhanced Artifact Files**](https://github.com/michaelk462/michaelk462.github.io/tree/main/enhanced-code/CS340)
 
 ### Downloads
 
@@ -106,10 +106,12 @@ One particular problem revealed only through *hands-on testing* and not inspecti
 
 # **Links**
 
-[Code Review](code-review)
+[**Professional Self-Assessment**](index)
 
-[Enhancement One: Software Design & Engineering](enhancement-one)
+[**Code Review**](code-review)
 
-[Main Page](index)
+[**Enhancement One: Software Design & Engineering**](enhancement-one)
 
-[Enhancement Three: Databases](enhancement-three)
+[**Enhancement Two: Algorithms & Data Structures**](enhancement-two)
+
+[**Enhancement Three: Databases**](enhancement-three)
