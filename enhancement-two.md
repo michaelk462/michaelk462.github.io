@@ -28,7 +28,7 @@ A dictionary cache, `query_cache`, saves the result of each rescue-type query af
 | Cached repeated query        | O(1) - dictionary lookup           |
 
 ## **Enhanced CRUD Module (excerpt)**
-```
+```python
 def read_with_filter(self, rescue_type):
         # O(1) cache hit; no query executed at all.
         if rescue_type in self.query_cache:
