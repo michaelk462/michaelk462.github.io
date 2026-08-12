@@ -3,6 +3,8 @@
 # **Professional Self-Assessment**
 
 ## **Introduction**
+**Hi, I am Michael King. Welcome to my GitHub Pages ePortfolio!**
+
 I have been enrolled in the Computer Science program at Southern New Hampshire University for approximately a year and a half, navigating through required coursework in software development, data structures, computational graphics, mobile development, and database design. From that coursework, three concepts have influenced my approach to a piece of code more strongly than any other: object-oriented design as a way to keep a system maintainable over time, algorithmic thinking as a field for trying to determine if a machine running a program is actually at peak efficiency, and a security way of thinking that considers every restriction to an existing data-processing route as a potential target for an attack.
 
 ## **Collaborating in a Team Environment**
@@ -59,7 +61,7 @@ This outcome is demonstrated across the [code review video](code-review) and the
 This outcome is demonstrated primarily in [Algorithms & Data Structures](enhancement-two), with explicit before/after complexity analysis (O(n) -> O(log n) -> O(1)) for every optimization.
 
 ### **Course Outcome 4**
-**I Demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals. **
+**I Demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
 
 This outcome is demonstrated in [Software Design & Engineering](enhancement-one)'s cross-language graphics migration and in [Databases](enhancement-three)'s REST API and cloud database architecture.
 
