@@ -16,16 +16,16 @@ On the Android client, direct `SQLiteOpenHelper` calls are replaced with Retrofi
 
 ## **Course Outcome Alignment**
 
-### Outcome 1
+### **Outcome 1**
 **Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
 
-### How This Outcome Is Demonstrated
+### **How This Outcome Is Demonstrated**
 This outcome is demonstrated in the completed migration involving the functioning Flask/PyMongo REST API with indexed collections, and an Android client built with Retrofit that calls that API asynchronously, and an authentication flow using JWT that links the two.
 
-### Outcome 2
+### **Outcome 2**
 **Develop a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
 
-### How This Outcome Is Demonstrated
+### **How This Outcome Is Demonstrated**
 This outcome is demonstrated through the use of hashed passwords, parameterized queries, and token-based authentication in the abstract. The implementation proved to be an extra, unplanned security insight: the core artifact’s prior data entry source file did not scope weighing any permanently entered items by user at all, rather than as a data-isolation bug. Addressing this flaw entailed scoping every read, update, and delete operation to the authenticated user identity, rather than to a record’s raw ID; this is, in spirit, a more concrete proactive step toward thwarting an attacker than the initial plan explicitly accounted for.
 
 ## **Narrative**
@@ -33,21 +33,21 @@ This outcome is demonstrated through the use of hashed passwords, parameterized 
 
 ## **Original Project vs. Enhancement**
 
-### Screenshot of the Original CS-360 Weight Tracking App Built in Android Studio
+### **Screenshot of the Original CS-360 Weight Tracking App Built in Android Studio**
 
-![Before](assets/images/CS-360 Original Screenshot.jpg "Screenshot of the Original CS-360 Weight Tracking App Built in Android Studio")
+![Before](assets/images/CS-360%20Original%20Screenshot.jpg "Screenshot of the Original CS-360 Weight Tracking App Built in Android Studio")
 
-### Screenshot of the Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend
+### **Screenshot of the Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend**
 
-![After](assets/images/CS-360 Enhancement Screenshot.jpg "Screenshot of the Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend")
+![After](assets/images/CS-360%20Enhancement%20Screenshot.jpg "Screenshot of the Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend")
 
-### Original and Enhanced Artifact Files
+### **Original and Enhanced Artifact Files**
 
 [**Original Artifact Files**](https://github.com/michaelk462/michaelk462.github.io/tree/main/original-code/CS360)
 
 [**Enhanced Artifact Files**](https://github.com/michaelk462/michaelk462.github.io/tree/main/enhanced-code/CS360)
 
-### Downloads
+### **Downloads**
 
 [**Original** (~130 KB)](CS360Original.zip)
 
