@@ -13,7 +13,7 @@ The Python port alone adds inline docstrings to every class and method, complete
 
 ## **Enhancement Flowchart**
 
-![Flowchart](assets/images/Enhancement%20One%20Flowchart.jpg "Enhancement One Flowchart")
+![Enhancement One Flowchart](assets/images/Enhancement%20One%20Flowchart.jpg "Enhancement One Flowchart")
 
 ## **Course Outcome Alignment**
 ### **Outcome 1**
@@ -47,11 +47,11 @@ This reinforced the learning that cross-language porting is not simply a matter 
 
 ### **Screenshot of the Original CS-330 3D Scene Built in C++**
 
-![Before](assets/images/CS-330%20Original%20Screenshot.jpg "Screenshot of the Original CS-330 3D Scene Built in C++")
+![Screenshot of the Original CS-330 3D Scene Built in C++](assets/images/CS-330%20Original%20Screenshot.jpg "Screenshot of the Original CS-330 3D Scene Built in C++")
 
 ### **Screenshot of the Enhanced CS-330 3D Scene Built in Python**
 
-![After](assets/images/CS-330%20Enhancement.jpg "Screenshot of the Enhanced CS-330 3D Scene Built in Python")
+![Screenshot of the Enhanced CS-330 3D Scene Built in Python](assets/images/CS-330%20Enhancement.jpg "Screenshot of the Enhanced CS-330 3D Scene Built in Python")
 
 ### **Original and Enhanced Artifact Files**
 
