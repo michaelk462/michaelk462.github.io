@@ -69,12 +69,12 @@ This outcome is demonstrated primarily in [**Algorithms & Data Structures**](enh
 ### **Course Outcome 4**
 **I Demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
 
-This outcome is demonstrated in [**Software Design & Engineering**](enhancement-one)'s cross-language graphics migration and in [**Databases**](enhancement-three)'s REST API and cloud database architecture.
+This outcome is demonstrated in [**Software Design & Engineering**](enhancement-one), with the cross-language graphics migration and in [**Databases**](enhancement-three), with the REST API and cloud database architecture.
 
 ### **Course Outcome 5**
 **I Developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
 
-This outcome is demonstrated in [**Databases**](enhancement-three), which replaces plain-text credentials and string-concatenated queries with hashed passwords, parameterized queries, JWT authentication, and per-user data scoping.
+This outcome is demonstrated in the [**Databases**](enhancement-three) enhancement, which replaces plain-text credentials and string-concatenated queries with hashed passwords, parameterized queries, JWT authentication, and per-user data scoping.
 
 # **Links**
 
