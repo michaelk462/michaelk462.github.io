@@ -47,11 +47,11 @@ This reinforced the learning that cross-language porting is not simply a matter 
 
 ### Screenshot of the Original CS-330 3D Scene Built in C++
 
-![Before](assets/images/CS-330 Original Screenshot.jpg)
+!(assets/images/CS-330 Original Screenshot.jpg)
 
 ### Screenshot of the Enhanced CS-330 3D Scene Built in Python
 
-![After](assets/images/CS-330 Enhancement.jpg)
+!(assets/images/CS-330 Enhancement.jpg)
 
 ### Original and Enhanced Artifact Files
 
