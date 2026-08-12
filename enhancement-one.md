@@ -13,19 +13,19 @@ The Python port alone adds inline docstrings to every class and method, complete
 
 ## **Enhancement Flowchart**
 
-![Flowchart](assets/images/Enhancement One Flowchart.jpg)
+![Flowchart](assets/images/Enhancement%20One%20Flowchart.jpg "Enhancement One Flowchart")
 
 ## **Course Outcome Alignment**
-### Outcome 1
+### **Outcome 1**
 **Demonstrate an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
 
-### How This Outcome Is Demonstrated
+### **How This Outcome Is Demonstrated**
 This outcome is demonstrated through the cross-language, cross-toolchain migration of a working OpenGL program, by utilizing the standard Python libraries used in the scientific and visualization computing industries, and by the described architectural enhancements. The ability to migrate a complex graphics program from one language and set of libraries to another is an industry-related competency in the field of game development, simulation, and scientific visualization. 
 
-### Outcome 2
+### **Outcome 2**
 **Design, develop, and deliver professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts, as the refactored and documented code will be presented in a professional ePortfolio context.**
 
-### How This Outcome Is Demonstrated
+### **How This Outcome Is Demonstrated**
 This outcome is demonstrated during the trade-off analysis, such as whether to use procedural generation of the mesh instead of literal vertex arrays *(which trades file size and generation time for readability and parameterizability)*, and whether to use Pygame CE instead of Pygame *(which trades the expected Pygame library for support in the latest Python 3.14)*. These decisions were planned, documented, and supported using software engineering logic. No modifications to the existing outcome or coverage plan were necessary. The improvement made is the same as the plan outlined in the first module, and all six planned Python modules have been written and verified to run successfully.
 
 ## **What I Learned**
@@ -45,21 +45,21 @@ This reinforced the learning that cross-language porting is not simply a matter 
 
 ## **Original Project vs. Enhancement**
 
-### Screenshot of the Original CS-330 3D Scene Built in C++
+### **Screenshot of the Original CS-330 3D Scene Built in C++**
 
-![Before](assets/images/CS-330 Original Screenshot.jpg "Screenshot of the Original CS-330 3D Scene Built in C++")
+![Before](assets/images/CS-330%20Original%20Screenshot.jpg "Screenshot of the Original CS-330 3D Scene Built in C++")
 
-### Screenshot of the Enhanced CS-330 3D Scene Built in Python
+### **Screenshot of the Enhanced CS-330 3D Scene Built in Python**
 
-![After](assets/images/CS-330 Enhancement.jpg "Screenshot of the Enhanced CS-330 3D Scene Built in Python")
+![After](assets/images/CS-330%20Enhancement.jpg "Screenshot of the Enhanced CS-330 3D Scene Built in Python")
 
-### Original and Enhanced Artifact Files
+### **Original and Enhanced Artifact Files**
 
 [**Original Artifact Files**](https://github.com/michaelk462/michaelk462.github.io/tree/main/original-code/CS330)
 
 [**Enhanced Artifact Files**](https://github.com/michaelk462/michaelk462.github.io/tree/main/enhanced-code/CS330)
 
-### Downloads
+### **Downloads**
 
 [**Original** (~19.7 MB)](CS330Original.zip)
 
