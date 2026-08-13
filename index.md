@@ -33,21 +33,21 @@ The **three artifacts** in this ePortfolio provide evidence of progress in the t
 
 The first artifact is a **3D graphics scene originally built in CS-330 using C++ and OpenGL.** The initial implementation performs correctly, but places all logic in a single large main() function, with duplicated mesh initialization code, and no exception handling for missing texture files. The enhanced artifact refactors this project into ShaderProgram, Mesh, Texture, Camera, and Scene classes, improving correctness and documentation, and providing reliable exception handling for missing textures, while achieving the same rendering solution. This is shown to be a creative and established software engineering technique and communicates the technical tone of my portfolio.
 
-[**Explore This Artifact**](enhancement-one)
+[**Explore This Artifact ->**](enhancement-one)
 
 ### **Artifact Two: Algorithms & Data Structures**
 ![Enhanced Grazioso Salvare animal shelter dashboard originally built in CS-340](assets/images/CS340EnhancementScreenshot.jpg "Enhanced Grazioso Salvare animal shelter dashboard originally built in CS-340")
 
 The second artifact is **the Grazioso Salvare animal shelter dashboard, originally built in CS-340 as a Python/Dash app with a MongoDB backend.** The artifact used client-side filtering of the entire dataset for each query, resulting in an O(n) linear scan, where n was the dataset size. The enhanced artifact I built used compound indexes on the database, a server-side aggregation pipeline, and a memoization caching layer on the application, each detailed with an analysis comparing the before-and-after complexities. Every query is now a lookup requiring O(log n) or O(1) time.
 
-[**Explore This Artifact**](enhancement-two)
+[**Explore This Artifact ->**](enhancement-two)
 
 ### **Artifact Three: Databases**
 ![Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend](assets/images/CS360EnhancementScreenshot.jpg "Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend")
 
 The third artifact is **the weight-tracking app, originally built for CS-360 in Java with a primitive local SQLite database.** It stored passwords in plain, unencrypted text, established SQL statements via string concatenation, and stored everything on the mobile device. The enhancement relocated this application to a Flask REST API with a cloud-hosted MongoDB Atlas database, JWT authentication, parameterized queries, and stored tokens encrypted on the device. This gives the clearest example of the security mindset that threads through this entire portfolio and also anchors the final category of database enhancement.
 
-[**Explore This Artifact**](enhancement-three)
+[**Explore This Artifact ->**](enhancement-three)
 
 ## **Course Outcomes**
 
