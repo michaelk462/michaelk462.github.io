@@ -9,7 +9,7 @@ If the video doesn't load, [**watch it directly on YouTube.**](https://youtu.be/
 ## **What Is Covered in This Review**
 ### **Category One (~8 minutes)**
 
-**Artifact:** CS 330 3D Scene
+**Artifact:** CS-330 3D Scene
 
 **Focus:** Existing C++/OpenGL functionality, structural weaknesses, planned Python port.
 
