@@ -3,6 +3,8 @@
 # **Professional Self-Assessment**
 
 ## **Introduction**
+**Hello, I am Michael King. Welcome to my GitHub Pages ePortfolio!**
+
 I have been enrolled in the Computer Science program at Southern New Hampshire University for approximately a year and a half, navigating through required coursework in software development, data structures, computational graphics, mobile development, and database design. From that coursework, three concepts have influenced my approach to a piece of code more strongly than any other: object-oriented design as a way to keep a system maintainable over time, algorithmic thinking as a field for trying to determine if a machine running a program is actually at peak efficiency, and a security way of thinking that considers every restriction to an existing data-processing route as a potential target for an attack.
 
 ## **Collaborating in a Team Environment**
