@@ -1,4 +1,4 @@
-# Michael King CS-499 ePortfolio
+# **Michael King CS-499 ePortfolio**
 
 # **Enhancement Two: Algorithms & Data Structures**
 
@@ -13,7 +13,7 @@ This artifact was selected for the Algorithms and Data Structures category mainl
 ### **Compound Indexes**
 Compound indexes on `breed`, `sex_upon_outcome`, and `age_upon_outcome_in_weeks`, the three fields every rescue-type filter searches on, along with a separate index on `location_lat` and `location_long` to enable the geolocation map to be rendered, so Mongo will be able to perform the index-assisted lookup, O(log n), instead of a complete collection scan, O(n), for this task.
 
-### **Aggregation Pipelines **
+### **Aggregation Pipelines**
 A new method, `read_with_filter(rescue_type)`, replaces client-side pandas filtering with a MongoDB aggregation pipeline (`$match`, `$project`, `$sort`), where filtering, field selection, and sorting all happen on the server side outside of Python, not after the collection has been fully streamed down to a Python DataFrame.
 
 ### **Memoization Cache**
