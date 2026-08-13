@@ -6,20 +6,20 @@
 
 If the video doesn't load, [**watch it directly on YouTube.**](https://youtu.be/pweJtt50aTg)
 
-## **What Is Covered in This Review**
-### **Category One (~8 minutes)**
+## **What's Covered in This Review**
+### **Category One: Software Design & Engineering (~8 minutes)**
 
 **Artifact:** CS-330 3D Scene
 
 **Focus:** Existing C++/OpenGL functionality, structural weaknesses, planned Python port.
 
-### **Category Two (~8 minutes)**
+### **Category Two: Algorithms & Data Structures (~8 minutes)**
 
 **Artifact:** CS-340 Animal Shelter Dashboard
 
 **Focus:** CRUD/dashboard walkthrough, indexing & caching plan.
 
-### **Category Three (~8 minutes)**
+### **Category Three: Databases (~8 minutes)**
 
 **Artifact:** CS-360 Weight Tracking App
 
