@@ -36,7 +36,7 @@ The first artifact is a **3D graphics scene originally built in CS-330 using C++
 [**Explore This Artifact**](enhancement-one)
 
 ### **Artifact Two: Algorithms & Data Structures**
-![Artifact Two](assets/images/CS340EnhancementScreenshot.jpg)
+![Artifact Two](assets/images/CS340EnhancementScreenshot.jpg "Enhanced Grazioso Salvare animal shelter dashboard originally built in CS-340")
 
 The second artifact is the **the Grazioso Salvare animal shelter dashboard, originally built in CS-340 as a Python/Dash app with a MongoDB backend.** The artifact used client-side filtering of the entire dataset for each query, resulting in an O(n) linear scan, where n was the dataset size. The enhanced artifact I built used compound indexes on the database, a server-side aggregation pipeline, and a memoization caching layer on the application, each detailed with an analysis comparing the before-and-after complexities. Every query is now a lookup requiring O(log n) or O(1) time.
 
@@ -52,27 +52,27 @@ The third artifact is **the weight-tracking app, originally built for CS-360 in 
 ## **Course Outcomes**
 
 ### **Course Outcome 1**
-**I Employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.**
+**I employed strategies for building collaborative environments that enable diverse audiences to support organizational decision making in the field of computer science.**
 
 This outcome is demonstrated in the [**Code Review**](code-review), which walks a non-technical, peer/manager-level audience through each artifact's existing functionality, weaknesses, and enhancement plan.
 
 ### **Course Outcome 2**
-**I Designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**
+**I designed, developed, and delivered professional-quality oral, written, and visual communications that are coherent, technically sound, and appropriately adapted to specific audiences and contexts.**
 
 This outcome is demonstrated across the [**Code Review**](code-review) and the written narratives for all three enhancements, each documenting design rationale in technical standards-grounded language.
 
 ### **Course Outcome 3**
-**I Designed and evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.**
+**I designed and evaluated computing solutions that solve a given problem using algorithmic principles and computer science practices and standards appropriate to its solution, while managing the trade-offs involved in design choices.**
 
 This outcome is demonstrated primarily in [**Algorithms & Data Structures**](enhancement-two), with explicit before/after complexity analysis (O(n) -> O(log n) -> O(1)) for every optimization.
 
 ### **Course Outcome 4**
-**I Demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
+**I demonstrated an ability to use well-founded and innovative techniques, skills, and tools in computing practices for the purpose of implementing computer solutions that deliver value and accomplish industry-specific goals.**
 
 This outcome is demonstrated in [**Software Design & Engineering**](enhancement-one), with the cross-language graphics migration and in [**Databases**](enhancement-three), with the REST API and cloud database architecture.
 
 ### **Course Outcome 5**
-**I Developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
+**I developed a security mindset that anticipates adversarial exploits in software architecture and designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security of data and resources.**
 
 This outcome is demonstrated in the [**Databases**](enhancement-three) enhancement, which replaces plain-text credentials and string-concatenated queries with hashed passwords, parameterized queries, JWT authentication, and per-user data scoping.
 
