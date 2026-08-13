@@ -49,9 +49,9 @@ This outcome is demonstrated through the use of hashed passwords, parameterized 
 
 ### **Downloads**
 
-[**Original** (~130 KB)](CS360Original.zip)
+[**Original** (~115 KB)](CS360Original.zip)
 
-[**Enhancement** (~115 KB)](CS360Enhancement.zip)
+[**Enhancement** (~130 KB)](CS360Enhancement.zip)
 
 # **Links**
 
