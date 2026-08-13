@@ -29,21 +29,21 @@ My **career goal** is to work in IT management and networking positions, such as
 The **three artifacts** in this ePortfolio provide evidence of progress in the three main areas of this capstone: Software Design & Engineering, Algorithms & Data Structures, and Databases. While each artifact individually demonstrates technical expertise, they collectively provide narratives of technical breadth grounded in a security-aware, systems-oriented mindset.
 
 ### **Artifact One: Software Design & Engineering**
-![Artifact One](assets/images/CS-330%20Enhancement.jpg)
+![Artifact One](assets/images/CS330EnhancementScreenshot.jpg)
 
 The first artifact is a **3D graphics scene originally built in CS-330 using C++ and OpenGL.** The initial implementation performs correctly, but places all logic in a single large main() function, with duplicated mesh initialization code, and no exception handling for missing texture files. The enhanced artifact refactors this project into ShaderProgram, Mesh, Texture, Camera, and Scene classes, improving correctness and documentation, and providing reliable exception handling for missing textures, while achieving the same rendering solution. This is shown to be a creative and established software engineering technique and communicates the technical tone of my portfolio.
 
 [**Explore This Artifact**](enhancement-one)
 
 ### **Artifact Two: Algorithms & Data Structures**
-![Artifact Two](assets/images/CS-340%20Dashboard%20Screenshot.jpg)
+![Artifact Two](assets/images/CS340EnhancementScreenshot.jpg)
 
 The second artifact is the **the Grazioso Salvare animal shelter dashboard, originally built in CS-340 as a Python/Dash app with a MongoDB backend.** The artifact used client-side filtering of the entire dataset for each query, resulting in an O(n) linear scan, where n was the dataset size. The enhanced artifact I built used compound indexes on the database, a server-side aggregation pipeline, and a memoization caching layer on the application, each detailed with an analysis comparing the before-and-after complexities. Every query is now a lookup requiring O(log n) or O(1) time.
 
 [**Explore This Artifact**](enhancement-two)
 
 ### **Artifact Three: Databases**
-![Artifact Three](assets/images/CS-360%20Enhancement%20Screenshot.jpg)
+![Artifact Three](assets/images/CS360EnhancementScreenshot.jpg)
 
 The third artifact is **the weight-tracking app, originally built for CS-360 in Java with a primitive local SQLite database.** It stored passwords in plain, unencrypted text, established SQL statements via string concatenation, and stored everything on the mobile device. The enhancement relocated this application to a Flask REST API with a cloud-hosted MongoDB Atlas database, JWT authentication, parameterized queries, and stored tokens encrypted on the device. This gives the clearest example of the security mindset that threads through this entire portfolio and also anchors the final category of database enhancement.
 
