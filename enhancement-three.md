@@ -35,11 +35,11 @@ This outcome is demonstrated through the use of hashed passwords, parameterized 
 
 ### **Screenshot of the Original CS-360 Weight Tracking App Built in Android Studio**
 
-![Original CS-360 Weight Tracking App Built in Android Studio](assets/images/CS-360%20Original%20Screenshot.jpg "Original CS-360 Weight Tracking App Built in Android Studio")
+![Original CS-360 Weight Tracking App Built in Android Studio](assets/images/CS360OriginalScreenshot.jpg "Original CS-360 Weight Tracking App Built in Android Studio")
 
 ### **Screenshot of the Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend**
 
-![Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend](assets/images/CS-360%20Enhancement%20Screenshot.jpg "Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend")
+![Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend](assets/images/CS360EnhancementScreenshot.jpg "Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend")
 
 ### **Original and Enhanced Artifact Files**
 
