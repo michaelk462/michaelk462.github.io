@@ -43,7 +43,7 @@ The second artifact is **the Grazioso Salvare animal shelter dashboard, original
 [**Explore This Artifact**](enhancement-two)
 
 ### **Artifact Three: Databases**
-![Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend](assets/images/CS360EnhancementScreenshot.jpg "Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend")
+![Enhanced CS-360 Weight Tracking App in Android Studio Driven by a Flask/MongoDB Backend](assets/images/CS360EnhancementScreenshot.jpg "Enhanced CS-360 Weight Tracking App in Android Studio Driven by a Flask/MongoDB Backend")
 
 The third artifact is **the weight-tracking app, originally built for CS-360 in Java with a primitive local SQLite database.** It stored passwords in plain, unencrypted text, established SQL statements via string concatenation, and stored everything on the mobile device. The enhancement relocated this application to a Flask REST API with a cloud-hosted MongoDB Atlas database, JWT authentication, parameterized queries, and stored tokens encrypted on the device. This gives the clearest example of the security mindset that threads through this entire portfolio and also anchors the final category of database enhancement.
 
