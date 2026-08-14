@@ -28,6 +28,9 @@ This outcome is demonstrated in the completed migration involving the functionin
 ### **How This Outcome Is Demonstrated**
 This outcome is demonstrated through the use of hashed passwords, parameterized queries, and token-based authentication in the abstract. The implementation proved to be an extra, unplanned security insight: the core artifact’s prior data entry source file did not scope weighing any permanently entered items by user at all, rather than as a data-isolation bug. Addressing this flaw entailed scoping every read, update, and delete operation to the authenticated user identity, rather than to a record’s raw ID.
 
+## **What I Learned**
+Enhancing the artifact made me think of the application as a *distributed system*, rather than a single machine with a local database file. Moving persistence off the device forced me to redesign the assumptions that had previously existed: each synchronous DAO call was now a network request, the record readable off disk had to be verifiable and authorized at each access, and the cleartext credential stored locally had to be hashed on the server and encrypted into a token on the client. Working through that evolution made clear the kinds of implicit assumptions that a single-machine, single-user design can avoid, and how those assumptions need to be explicitly codified and enforced once there could be more than one path to the data.
+
 ## **Narrative**
 [**Read Full Narrative**](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/EnhancementThreeNarrative.pdf)
 
