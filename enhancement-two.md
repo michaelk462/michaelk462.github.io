@@ -47,7 +47,7 @@ One particular problem revealed only through *hands-on testing* and not inspecti
 
 ## **Narrative**
 
-[**Read Full Narrative**](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/CS-499%20Enhancement%20Two%20Narrative.pdf)
+[**Read Full Narrative**](https://github.com/michaelk462/michaelk462.github.io/blob/main/Narratives/EnhancementTwoNarrative.pdf)
 
 ## **Original Project vs. Enhancement**
 
