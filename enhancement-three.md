@@ -39,7 +39,7 @@ This outcome is demonstrated through the use of hashed passwords, parameterized 
 
 ### **Screenshot of the Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend**
 
-![Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend](assets/images/CS360EnhancementScreenshot.jpg "Enhanced CS-360 Weight Tracking App Driven by a Flask/MongoDB Backend")
+![Enhanced CS-360 Weight Tracking App in Android Studio Driven by a Flask/MongoDB Backend](assets/images/CS360EnhancementScreenshot.jpg "Enhanced CS-360 Weight Tracking App in Android Studio Driven by a Flask/MongoDB Backend")
 
 ### **Original and Enhanced Artifact Files**
 
